@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\landing\AuthController;
+use App\Http\Controllers\landing\CareerController;
 
 
 /*
@@ -15,4 +16,5 @@ use App\Http\Controllers\landing\AuthController;
 |
 */
 
-Route::get('/', [AuthController::class, 'login'])->name('login');
+Route::get('/', [AuthController::class, 'home'])->name('home');
+Route::get('/cereer', [CareerController::class, 'cereer'])->name('cerrer');
