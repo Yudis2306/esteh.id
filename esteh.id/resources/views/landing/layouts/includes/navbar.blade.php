@@ -1,6 +1,6 @@
 <div class="theme-main-menu theme-menu-one sticky-menu">
 				<div class="d-flex align-items-center">
-					<div class="logo mr-auto"><a href="index.php"><img style="width:100%; height:auto; max-width:300px;" src="images/logo/logo-esteh.png" class="logo-banner" alt=""></a></div>
+					<div class="logo mr-auto"><a href="{{ route('home') }}"><img style="width:100%; height:auto; max-width:300px;" src="images/logo/logo-esteh.png" class="logo-banner" alt=""></a></div>
 					<!-- <div class="header-right-widget">
 						<ul>
 							<li class="language-switcher">
@@ -34,7 +34,7 @@
 						   <div class="collapse navbar-collapse" id="navbarSupportedContent">
 						   		<ul class="navbar-nav">
 									<li class="nav-item active">
-											<a class="nav-link" href="index.html" >Home</a>
+											<a class="nav-link" href="{{ route('home') }}" >Home</a>
 									</li>
 										<li class="nav-item">
 											<a class="nav-link" href="blog" >Blog</a>

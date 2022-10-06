@@ -6,6 +6,7 @@
 						<a href="index.html" class="logo">
 							<img src="images/logo/logo-esteh.png" style="margin-left: -7px;" class="logo-footer" alt="" />
 						</a>
+						<a href="{{ route('cerrer') }}" class="email">Esteh Career</a>
 						<a href="mailto:info@esteh.id" class="email">info@esteh.id</a>
 						<a href="tel:081359883131" class="phone">+62813-5988-3131</a>
 					  </div>
